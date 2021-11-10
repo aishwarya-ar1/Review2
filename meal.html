@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="meal.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="C:\Users\Aish\Desktop\CHK\image\favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="C:\Users\Aish\Desktop\CHK\front\home.css">
+    <title>Orders</title>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="C:\Users\Aish\Desktop\CHK\front\home.html">HealthKit</a>
+            <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page"
+                            href="C:\Users\Aish\Desktop\CHK\front\home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="C:\Users\Aish\Desktop\CHK\front\features.html">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="C:\Users\Aish\Desktop\CHK\front\pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="C:\Users\Aish\Desktop\CHK\front\about.html">About
+                            Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="C:\Users\Aish\Desktop\CHK\front\contact.html">Contact
+                            Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            For Individuals
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="C:\Users\Aish\Desktop\CHK\front\prediction.html">COVID
+                                    Severity
+                                    Prediction</a></li>
+                            <li><a class="dropdown-item"
+                                    href="C:\Users\Aish\Desktop\CHK\front\vaccination.html">Vaccination
+                                    Scheduler</a></li>
+                            <li><a class="dropdown-item" href="C:\Users\Aish\Desktop\CHK\front\appointment.html">Book an
+                                    Appointment</a></li>
+                            <li><a class="dropdown-item" href="C:\Users\Aish\Desktop\CHK\front\meal.html">Order a
+                                    Meal</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            For Organizations
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="C:\Users\Aish\Desktop\CHK\front\booking.html">Food
+                                    Booking</a></li>
+                            <li><a class="dropdown-item" href="C:\Users\Aish\Desktop\CHK\front\seating.html">Clinical
+                                    Seating</a></li>
+                            <li><a class="dropdown-item"
+                                    href="C:\Users\Aish\Desktop\CHK\front\screening.html">Screening</a></li>
+                            <li><a class="dropdown-item" href="C:\Users\Aish\Desktop\CHK\front\warroom.html">War
+                                    Room</a></li>
+                            <hr>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Bootstrap -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" 
+    crossorigin="anonymous"></script> -->
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/e395fb5b59.js" crossorigin="anonymous"></script>
+
+    <!-- external css -->
+    <link rel="stylesheet" href="C:\Users\Aish\Desktop\HK-Implementation-front\front\home.css">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <input checked type=radio name="slider" id="slide1" />
+        <input type=radio name="slider" id="slide2" />
+        <input type=radio name="slider" id="slide3" />
+        <input type=radio name="slider" id="slide4" />
+        <input type=radio name="slider" id="slide5" />
+
+        <div class="slider-wrapper">
+            <div class=inner>
+                <article>
+                    <div class="info top-left">
+                        <h3>Malacca</h3>
+                    </div>
+                    <img src="https://farm9.staticflickr.com/8059/28286750501_dcc27b1332_h_d.jpg" />
+                </article>
+
+                <article>
+                    <div class="info bottom-right">
+                        <h3>Cameron Highland</h3>
+                    </div>
+                    <img src="https://farm6.staticflickr.com/5812/23394215774_b76cd33a87_h_d.jpg" />
+                </article>
+
+                <article>
+                    <div class="info bottom-left">
+                        <h3>New Delhi</h3>
+                    </div>
+                    <img src="https://farm8.staticflickr.com/7455/27879053992_ef3f41c4a0_h_d.jpg" />
+                </article>
+
+                <article>
+                    <div class="info top-right">
+                        <h3>Ladakh</h3>
+                    </div>
+                    <img src="https://farm8.staticflickr.com/7367/27980898905_72d106e501_h_d.jpg" />
+                </article>
+
+                <article>
+                    <div class="info bottom-left">
+                        <h3>Nubra Valley</h3>
+                    </div>
+                    <img src="https://farm8.staticflickr.com/7356/27980899895_9b6c394fec_h_d.jpg" />
+                </article>
+            </div>
+            <!-- .inner -->
+        </div>
+        <!-- .slider-wrapper -->
+
+        <div class="slider-prev-next-control">
+            <label for=slide1></label>
+            <label for=slide2></label>
+            <label for=slide3></label>
+            <label for=slide4></label>
+            <label for=slide5></label>
+        </div>
+        <!-- .slider-prev-next-control -->
+
+        <div class="slider-dot-control">
+            <label for=slide1></label>
+            <label for=slide2></label>
+            <label for=slide3></label>
+            <label for=slide4></label>
+            <label for=slide5></label>
+        </div>
+        <!-- .slider-dot-control -->
+    </div>
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Greek Chicken Grain Bowl<span class="text-muted"></span></h2>
+            <p class="lead">Put together this
+                healthy, delicious meal in advance, then just grab and go when you need to head out the
+                door. Protein supply. Chicken has a very high protein content, which plays a very
+                important role
+                in sustaining our muscles.</p>
+        </div>
+        <div class="col-md-5">
+            <center>
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                    height="500"
+                    src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/greek-chicken-grain-bowl-1612542687.jpg?crop=0.6666666666666666xw:1xh;center,top&resize=980:*"
+                    aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+                </img>
+            </center>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Egg Salad Sandwich<span class="text-muted"></span></h2>
+            <p class="lead">An egg salad sandwich is the best lunch to make if you don't have a ton of
+                ingredients on hand. Your pantry to the rescue! The egg is a powerhouse of
+                disease-fighting
+                nutrients like lutein and zeaxanthin. The diet is simple; you stick to lean proteins and
+                aim to
+                cut calories.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                height="500"
+                src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/egg-salad-sandwich-jpg-1614890300.jpg?crop=0.891xw:1.00xh;0,0&resize=980:*"
+                aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+            </img>
+
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Creamy Lemon Pasta With Chicken and Peas <span class="text-muted"></span>
+            </h2>
+            <p class="lead">Craving mac and cheese without the nutritional blowback? This creamy dish
+                tastes
+                just as delightful, with each bowl packing in 40+ of protein in one sitting.</p>
+        </div>
+        <div class="col-md-5">
+            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                height="500"
+                src="https://hips.hearstapps.com/ghk.h-cdn.co/assets/18/07/1518453480-creamy-lemon-chicken-pasta-danielle-occhiogrosso.jpg?crop=1.0xw:1xh;center,top&resize=768:*&keepGifs=1"
+                alt="creamylemon" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice"
+                focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+            </img>
+
+        </div>
+    </div>
+    <br>
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+    <br>
+    <br>
+
+    <!-- food -->
+
+    <div class="container marketing">
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="bd-placeholder-img rounded-circle" width="140" height="140"
+                    src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/1509034631-soy-glazed-cod-bok-choy-1117-1584383681.jpg?crop=1xw:1xh;center,top&resize=980:*"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+                </img>
+                <h2>Breakfast</h2>
+                <p>
+                    Startoff your
+                    day with a simple multigrain toast with natural peanut butter, oatmeal, yogurt, fruit,
+                    or
+                    healthy cereal.</p>
+                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="bd-placeholder-img rounded-circle" width="140" height="140"
+                    src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/1472743119-ghk100116yk-mushroom-orzo-soup-1584383512.jpg?crop=0.9993197278911565xw:1xh;center,top&resize=980:*"
+                    aria-label="Placeholder: 150x150" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+                </img>
+
+                <h2>Luncheon</h2>
+                <p>Ditch your heavy, cream-based winter soups for a light and refreshing supergreen soup
+                    like this
+                    one. </p> <br>
+                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="bd-placeholder-img rounded-circle" width="140" height="140"
+                    src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/chicken-and-red-plum-salad-healthy-lunch-ideas-1555338056.jpg?crop=0.953xw:0.954xh;0.0466xw,0.0345xh&resize=768:*&keepGifs=1"
+                    aria-label="Placeholder: 150x150" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+                </img>
+
+                <h2>Dinner</h2>
+                <p>A lovely combination of fresh and filling, this warm rice salad will quickly become a
+                    go-to
+                    recipe in your household.</p>
+                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+        <br>
+
+        <!-- FEATURES -->
+
+        <div class="b-example-divider"></div>
+
+        <div class="container px-4 py-5" id="hanging-icons">
+            <h2 class="pb-2 border-bottom">Student Communities</h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                <div class="col d-flex align-items-start">
+                    <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                        <svg class="bi" width="1em" height="1em">
+                            <use xlink:href="#toggles2" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h2>The Foodies Club</h2>
+                        <p>Be the first to hear about foodie news, exclusive events, giveaways and discounts when
+                            you
+                            sign up to our newsletter and join the Foodie Club - and the best part? It’s completely
+                            free!
+
+                            Foodie Club brings together an engaged community of foodies, bringing our foodies
+                            up-to-date
+                            content and giving members access to exclusive food and drink-related events, giveaways
+                            and
+                            great deals and discounts. </p>
+                        <a href="foodie.html" class="btn btn-primary">
+                            Join Now
+                        </a>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                        <svg class="bi" width="1em" height="1em">
+                            <use xlink:href="#cpu-fill" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h2>MovieBuff Mob</h2>
+                        <p>If you're a movie buff such as us, you must surely miss finding quality movies to watch
+                            and
+                            then discuss. What better than to rouse up a little film debate, share and exchange
+                            thoughts
+                            and perspectives, no? Well, you can still find your film-loving squad virtually by
+                            joining
+                            these online movies clubs. Lockdown is no more lonely and limp, it's communal and lit,
+                            baby!
+                        </p>
+                        <a href="gallery.html" class="btn btn-primary">
+                            Join Now
+                        </a>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                        <svg class="bi" width="1em" height="1em">
+                            <use xlink:href="#tools" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h2>Namma KCT Updates</h2>
+                        <br>
+                        <p>Be the first to know the updates about the happenings at Namma KCT! Right from club
+                            events,
+                            department competitions, Conferences and Sports events, join us to receive updates on
+                            priority! Welcome home, Makkaley!</p>
+                        <br>
+                        <br>
+                        <a href="https://blog.kct.ac.in/" class="btn btn-primary">
+
+                            Subscribe
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="b-example-divider"></div>
+
+
+        <!--  -->
+
+
+    </div><!-- /.container -->
+
+
+    <!-- FOOTER -->
+    <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>&copy; 2021–2022 FoodPanda Company, Inc. &middot; </p>
+    </footer>
+    </main>
+
+
+</body>
+
+</html>
